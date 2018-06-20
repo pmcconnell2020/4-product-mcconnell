@@ -6,20 +6,53 @@
         <!-- character encoding -->
         <meta charset="UTF-8">
         <!-- title tag -->
-        <title>Product/Company Page Project</title>
+        <title>Marucci</title>
         <!-- mobile-friendly viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- W3.CSS stylesheet -->
         <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
         <!-- custom style -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
     <body>
-        
-        <h1>Hello World</h1>
 
-        
+        <!-- top nav, desktop and tablet -->
+
+        <div class="w3-bar w3-theme w3-top" style="z-index: 999;">
+            <a href="#" class="w3-bar-item w3-button">Marucci</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small">Baseball</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small">Wood</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small">Custom</a>
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="topNav()">&#9776;</a>
+        </div>
+
+        <!-- top nav, mobile -->
+
+        <div id="mobileTopNav" class="w3-bar-block w3-theme-l1 w3-hide w3-hide-large w3-hide-medium w3-top">
+            <a href="#" class="w3-bar-item w3-button">Baseball</a>
+            <a href="#" class="w3-bar-item w3-button">Wood</a>
+            <a href="#" class="w3-bar-item w3-button">Custom</a>
+        </div>
+
+        <!-- First Parallax Image with Logo Text -->
+      
+            <div class="w3-display-middle" style="white-space:nowrap;">
+                <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity"></span>
+            </div>
+
+        <!-- Container (About Section) -->
+        <div class="w3-container w3-padding-64" id="about">
+            <div class="w3-row">
+                <h3 class="w3-center">Baseball</h3>
+            </div>
+
+        </div>
+
+
+        <script src="js/topNav.js"></script>
     </body>
 
 </html>

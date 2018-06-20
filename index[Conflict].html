@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <!-- character encoding -->
+        <meta charset="UTF-8">
+        <!-- title tag -->
+        <title>Marucci</title>
+        <!-- mobile-friendly viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- W3.CSS stylesheet -->
+        <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+        <!-- custom style -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+
+    <body>
+
+        <!-- top nav, desktop and tablet -->
+        <div class="w3-top">
+            <div class="w3-bar w3-theme">
+                <a href="#baseball" class="w3-bar-item w3-button w3-hide-small">Baseball</a>
+                <a href="#wood" class="w3-bar-item w3-button">Wood</a>
+                <a href="#maple" class="w3-bar-item w3-button w3-hide-small">Maple</a>
+                <a href="#custom" class="w3-bar-item w3-button w3-hide-small">Custom</a>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="topNav()">&#9776;</a>
+            </div>
+            <div id="mobileNav" class="w3-bar-block w3-theme-l1 w3-hide w3-hide-large w3-hide-medium">
+                <a href="#baseball" class="w3-bar-item w3-button">Baseball</a>
+                <a href="#wood" class="w3-bar-item w3-button">Wood</a>
+                <a href="#maple" class="w3-bar-item w3-button">Maple</a>
+                <a href="#custom" class="w3-bar-item w3-button">Custom</a>
+            </div>
+        </div>
+        <!-- top nav, mobile -->
+
+        <!-- First Parallax Image with Logo Text -->
+        <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+            <div class="w3-display-middle" style="white-space:nowrap;">
+                <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">REGISTER</span>
+            </div>
+        </div>
+
+        <!-- Container (About Section) -->
+        <div class="w3-padding-64" id="about">
+
+            <div class="w3-row w3-container">
+                <h1>Baseball</h1>
+            </div>
+
+            <div class="w3-row">
+                <div class="w3-third">
+                    <div class="w3-card">
+                        <div class="container w3-center w3-jumbo w3-text-theme2">
+                            <i class="fa fa-book"></i>
+                        </div>
+                        <div class="w3-container w3-center w3-theme2">
+                            <h3>something</h3>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-third">
+                    <div class="w3-card">
+                        <div class="container w3-center w3-jumbo w3-text-theme2">
+                            <i class="fa fa-users"></i>
+                        </div>
+                        <div class="w3-container w3-center w3-theme2">
+                            <h3>something</h3>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-third">
+                    <div class="w3-card">
+                        <div class="container w3-center w3-jumbo w3-text-theme2">
+                            <i class="fa fa-phone-square"></i>
+                        </div>
+                        <div class="w3-container w3-center w3-theme2">
+                            <h3>something</h3>  
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Second Parallax Image with Logo Text -->
+        <div class="bgimg-2 w3-display-container w3-opacity-min" id="home">
+        </div>
+
+
+        <!-- Container (Training Section) -->
+        <section class="w3-padding-64" id="training">
+
+            <div class="w3-row w3-container">
+                <h1>Wood</h1>
+            </div>
+
+            <div class="w3-row">
+                <div class="w3-half">
+                    <div class="w3-card">
+                        <img src="img/soccer-team.jpg" class="w3 image" alt="Soccer Team Training">
+                    </div>
+                </div>
+                <div class="w3-half">
+
+                    <button onclick="accordion('something')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                        something</button>
+
+                    <div id="something" class="w3-container w3-hide">
+                        <p>Some text..</p>
+                    </div>
+
+                    <button onclick="accordion('something')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                        something</button>
+
+                    <div id="something" class="w3-container w3-hide">
+                        <p>Some text..</p>
+                    </div>
+
+                    <button onclick="accordion('something')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                        something</button>
+
+                    <div id="something" class="w3-container w3-hide">
+                        <p>Some text..</p>
+                    </div>
+
+                    <button onclick="accordion('something')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                        something</button>
+
+                    <div id="something" class="w3-container w3-hide">
+                        <p>Some text..</p>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- Second Parallax Image with Logo Text -->
+        <div class="bgimg-2 w3-display-container w3-opacity-min" id="home">
+        </div>
+
+
+        <!-- Container (Something Section) -->
+        <section class="w3-padding-64" id="training">
+
+            <div class="w3-row w3-container">
+                <h1>Wood</h1>
+            </div>
+
+            <div class="w3-row">
+                <div class="w3-half">
+                    <div class="w3-card">
+                        <img src="img/soccer-team.jpg" class="w3-image" alt="Soccer Team Training">
+                    </div>
+                </div>
+                <div class="w3-half">
+
+                    <div class="w3-bar w3-theme">
+                        <button class="w3-bar-item w3-button" onclick="openTab('essexCounty')">Essex</button>
+                        <button class="w3-bar-item w3-button" onclick="openTab('Paris')">Paris</button>
+                        <button class="w3-bar-item w3-button" onclick="openTab('Tokyo')">Tokyo</button>
+                    </div>
+
+                    <div id="essexCounty" class="tab">
+                        <div class="w3-container">
+                        <h2>Something</h2>
+                        <p>something else</p>
+                        </div>
+                        
+                    </div>
+
+                    <div id="Paris" class="tab" style="display:none">
+                        <h2>Paris</h2>
+                        <p>Paris is the capital of France.</p> 
+                    </div>
+
+                    <div id="Tokyo" class="tab" style="display:none">
+                        <h2>Tokyo</h2>
+                        <p>Tokyo is the capital of Japan.</p>
+                    </div>
+
+               
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Javascript -->
+
+        <script src="js/topNav.js"></script>
+        <script src="js/accordion.js"></script>
+        <script src="js/tabs.js"></script>
+
+    </body>
+
+</html>

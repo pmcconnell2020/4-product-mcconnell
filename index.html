@@ -6,20 +6,217 @@
         <!-- character encoding -->
         <meta charset="UTF-8">
         <!-- title tag -->
-        <title>Product/Company Page Project</title>
+        <title>Marucci</title>
         <!-- mobile-friendly viewport -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- W3.CSS stylesheet -->
-        <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" type="text/css" href="css/w3-reference.css">
         <!-- custom style -->
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
 
-    <body>
-        
-        <h1>Hello World</h1>
+    <body class="w3-white">
 
-        <p>Hey there, just testing out Netlify</p>
+
+        <!-- top nav, desktop and tablet -->
+        <div class="w3-top">
+            <div class="w3-bar w3-theme-d2">
+                <a href="#baseball" class="w3-bar-item w3-button w3-hide-small">Baseball</a>
+                <a href="#wood" class="w3-bar-item w3-button">Wood</a>
+                <a href="#maple" class="w3-bar-item w3-button w3-hide-small">Maple</a>
+                <a href="#custom" class="w3-bar-item w3-button w3-hide-small">Custom</a>
+                <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="topNav()">&#9776;</a>
+            </div>
+            <div id="mobileNav" class="w3-bar-block w3-theme-l1 w3-hide w3-hide-large w3-hide-medium">
+                <a href="#baseball" class="w3-bar-item w3-button">Baseball</a>
+                <a href="#wood" class="w3-bar-item w3-button">Wood</a>
+                <a href="#maple" class="w3-bar-item w3-button">Maple</a>
+                <a href="#custom" class="w3-bar-item w3-button">Custom</a>
+            </div>
+        </div>
+        <!-- top nav, mobile -->
+
+        <!-- First Parallax Image with Logo Text -->
+        <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+            <div class="w3-display-middle" style="white-space:nowrap;">
+                <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Marucci<span class="w3-hide-small"></span></span>
+            </div>
+        </div>
+
+        <!-- Container (Baseball Section) -->
+        <div class="w3-padding-64" id="baseball">
+
+            <div class="w3-row w3-container title">
+                <h1>Baseball</h1>
+            </div>
+
+            <div>
+                <h2>Commitment to Players</h2>
+                <p>As a company founded, majority-owned, and operated by current and former Big Leaguers, Marucci is dedicated to quality and committed to providing players at every level with the tools they want and need to be successful.</p>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- Second Parallax Image with Logo Text -->
+        <div class="bgimg-2 w3-display-container w3-opacity-min"></div>
+
+        <h2>MLB Player Review</h2>
+        <p>"Marucci is the best bat I've ever swung. I love the bat - the feel of it, the look of it. Once I started swinging Marucci, I've never swung anything else."
+
+            Andrew McCutchen</p>
+
+        <h2>In sports, there are no overnight success stories. Marucci knows this.</h2>
+        <p>We started in a workshop with an idea and a flawless piece of maple. Then we spent hours upon hours perfecting our craft. No grand dreams of fame and fortune. Just a commitment to the few who are truly committed. The game teaches lessons that translate to life success. We provide tools for the best players to win in baseball and life – in the form of precision equipment and elite training, so that these dedicated athletes can play to the very height of their abilities and, by doing this, they pay their respects to the game, and to themselves.</p>
+
+
+        <div id="wood">       
+            <div class="w3-row w3-container title">
+                <h1>Wood</h1>
+            </div>
+        </div>
+
+        <!-- Third Parallax Image with Logo Text -->
+        <div class="bgimg-3 w3-display-container w3-opacity-min" id="home">
+        </div>
+        <section>
+
+            <div class="w3-row">
+                <div class="col-6">
+                    <div class="w3-card">
+                        <img src="img/maple.jpg" class="w3-image" alt="maple" width="960" height="auto">
+                    </div>
+                </div>
+                <div class="w3-half">
+
+                    <div class="w3-padding-5" id="maple">
+
+            <div class="w3-row w3-container title">
+                <h1>Maple</h1>
+            </div>
+                    <button onclick="accordion('CUTCH22')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                        CUTCH22</button>
+
+                    <div id="CUTCH22" class="w3-container w3-hide">
+                        <h3>Andrew McCutchen</h3>
+                        <p>Hit for average? Hit for power? The Marucci CUTCH22 allows you to control both with authority. Inspired by Marucci partner Andrew McCutchen, this bat features a thick tapered knob and handle to balance out the wrath of a large, explosive barrel. The balance gives speed and control; the barrel gives power and pop; you give pitchers long days and sleepless nights.</p>
+                    </div>
+
+                    <button onclick="accordion('AP5')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                        AP5</button>
+
+                    <div id="AP5" class="w3-container w3-hide">
+                        <h3>Albert Pujols</h3>
+                        <p>The Marucci AP5 Pro Model wood bat is built for power with a large, explosive barrel primed for some heavy mashing. A tapered knob and handle allow for more control in the hands while still maintaining that end-loaded feel power hitters crave.
+
+                        </p>
+                    </div>
+
+                    <button onclick="accordion('POSEY28')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                        POSEY28</button>
+
+                    <div id="POSEY28" class="w3-container w3-hide">
+                        <h3>Buster Posey</h3>
+                        <p>This bat is a bona fide bomb dropper. Inspired by Marucci Partner Buster Posey, the POSEY28 Pro Model wood bat features a massive barrel and thin handle, resulting in the end-loaded feel power hitters love and the unmistakable BOOM that goes with it.</p>
+                    </div>
+
+                    <button onclick="accordion('LINDY12')" class="w3-button w3-block w3-left-align w3-theme w3-border">
+                        LINDY12</button>
+
+                    <div id="LINDY12" class="w3-container w3-hide">
+                        <h3>Francisco Lindor</h3>
+                        <p>The Marucci LINDY12 Pro Model is the ultimate contact hitter's bat. Inspired by Marucci partner Francisco Lindor, this maple piece features a unique bell knob that's slightly flared and rounded on the end, similar to a RH6, while the thin handle and medium barrel provide the balance and consistency contact hitters need from their bat.</p>
+                    </div>
+
+
+
+
+                </div>
+
+
+            </div>
+
+            </div>
+        
+        </section>
+
+
+
+        <!-- Container (Something Section) -->
+        <section id="custom" style="margin-top: -50%">
+
+            <div class="w3-row w3-container title">
+                <h1>Custom</h1>
+            </div>
+
+            <div class="w3-row">
+                <div class="w3-half">
+                    <div class="w3-card">
+                        <img src="img/Custom%20.jpg" class="w3-image" alt="Custom">
+                    </div>
+                </div>
+                <div class="w3-half">
+
+                    <div class="w3-bar w3-theme">
+                        <button class="w3-bar-item w3-button" onclick="openTab('Custom Pro')">Custom Pro</button>
+                        <button class="w3-bar-item w3-button" onclick="openTab('Colors')">Colors</button>
+                        <button class="w3-bar-item w3-button" onclick="openTab('Logo')">Logo</button>
+                    </div>
+
+                    <div id="Custom Pro" class="tab">
+                        <div class="w3-container">
+                            <h2>Custom Pro</h2>
+                            <h4>Handcrafted For You.</h4>
+
+                            <p>Marucci Custom Pro wood bats give you the ability to customize your favorite player-inspired model to your own specifications. Select your wood type, size, colors, and personalization to create the ultimate gamer that's uniquely your own.</p>
+                        </div>
+
+                    </div>
+
+                    <div id="Colors" class="tab" style="display:none">
+                        <h2>Colors</h2>
+                        <h3>19 Colors For You</h3> 
+                        <li>Baby Blue</li>
+                        <li>Black</li>
+                        <li>Chocolate</li>
+                        <li>Fog</li>
+                        <li>Green</li>
+                        <li>Inferno</li>
+                        <li>Laxton Cherry</li>
+                        <li>Natural</li>
+                        <li>Navy Blue</li>
+                        <li>Orange</li>
+                        <li>Pink</li>
+                        <li>Purple</li>
+                        <li>Red</li>
+                        <li>Royal Blue</li>
+                        <li>Smoke</li>
+                        <li>Unfinished</li>
+                        <li>Walnut</li>
+                        <li>Whitewash</li>
+                        <li>Yellow</li>
+
+                    </div>
+
+                    <div id="Logo" class="tab" style="display:none">
+                        <h2>Logo</h2>
+                        <p>The logo is everything for Marucci. it has become a famous icon, and possibly the face of baseball. Being able to choose the logo color and engraving color goves players a great opportunity to change the famous logo and make it their own.  </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Javascript -->
+
+        <script src="js/topNav.js"></script>
+        <script src="js/accordion.js"></script>
+        <script src="js/tabs.js"></script>
+
     </body>
 
 </html>
